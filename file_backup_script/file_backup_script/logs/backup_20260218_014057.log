@@ -1,0 +1,10 @@
+[2026-02-18 01:40:57] [INFO] Starting backup process...
+[2026-02-18 01:40:57] [INFO] Sources to back up: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/file_backup_script /Users/iti/My Mac Docu/Projects/Bash_Scripting/File_backup_scripts
+[2026-02-18 01:40:57] [INFO] Local backup directory: ./backups
+[2026-02-18 01:40:57] [WARNING] Source path '/Users/iti/My Mac Docu/Projects/Bash_Scripting/File_backup_scripts' does not exist. Skipping.
+[2026-02-18 01:40:57] [INFO] Creating archive: ./backups/backup_20260218_014057.tar.gz
+tar: Removing leading '/' from member names
+: Can't add archive to itself[2026-02-18 01:40:57] [INFO] Archive created successfully: ./backups/backup_20260218_014057.tar.gz
+[2026-02-18 01:40:57] [INFO] Cleaning up local backups older than 7 days...
+[2026-02-18 01:40:57] [INFO] Remote transfer disabled. Skipping.
+[2026-02-18 01:40:57] [INFO] Backup process complete.
