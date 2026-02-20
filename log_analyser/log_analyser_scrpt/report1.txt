@@ -1,0 +1,23 @@
+[0;34m--- Analysis Report for: sample.log ---[0m
+Generated on: Fri Feb 20 07:26:02 IST 2026
+Total log entries:       10
+
+[0;34m--- Log Level Counts ---[0m
+[0;32mINFO:    4[0m
+[1;33mWARNING: 2[0m
+[0;31mERROR:   4[0m
+
+[0;31m--- Top 5 Error Messages ---[0m
+   3    Database connection failed.
+   1    File not found: /var/www/html/index.php
+
+[0;32m--- Top 5 Active Users ---[0m
+   2 alice
+   1 charlie
+   1 bob
+
+[0;34m--- Search Results for: 'ERROR' ---[0m
+2023-10-27 10:05:23 ERROR Database connection failed.
+2023-10-27 10:12:12 ERROR Database connection failed.
+2023-10-27 10:20:30 ERROR File not found: /var/www/html/index.php
+2023-10-27 10:35:00 ERROR Database connection failed.
