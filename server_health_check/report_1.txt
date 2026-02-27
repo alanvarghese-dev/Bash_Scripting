@@ -1,0 +1,32 @@
+============SERVER HEALTH REPORT==============
+Date: Fri Feb 27 12:40:27 AM UTC 2026
+
+CPU Usage:
+ 00:40:27 up  7:12,  4 users,  load average: 0.23, 0.17, 0.16
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.1Gi       294Mi       5.6Mi       2.1Gi       2.2Gi
+Swap:          3.8Gi          0B       3.8Gi
+
+Disk Usage:
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              339M  1.7M  338M   1% /run
+efivarfs                           256K   16K  241K   7% /sys/firmware/efi/efivars
+/dev/mapper/ubuntu--vg-ubuntu--lv   38G  9.9G   26G  28% /
+tmpfs                              1.7G     0  1.7G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs                              1.7G     0  1.7G   0% /tmp
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-cryptsetup@dm_crypt\x2d0.service
+/dev/vda2                          2.0G  218M  1.6G  12% /boot
+/dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyAMA0.service
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/217542c74aba9f8c95be68aef119951bbdbe8d98277153b5555697c9c1a7b95a/shm
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/4f312c6c990a6b26c089701c7c22f88f4038e848c6947e304938aebae0e1395d/shm
+shm                                 64M     0   64M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/b987be73029ee033676d84710968516004dac98c6626fb1effa7e54b90010ec5/shm
+tmpfs                              339M   12K  339M   1% /run/user/1000
+

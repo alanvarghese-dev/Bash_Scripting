@@ -1,0 +1,19 @@
+==========Server-Health-check========
+
+Date: Fri Feb 27 12:53:56 PM UTC 2026
+
+CPU Usage:
+ 12:53:56 up 6 min,  3 users,  load average: 0.21, 0.15, 0.06
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.1Gi       785Mi       5.6Mi       1.6Gi       2.2Gi
+Swap:          3.8Gi          0B       3.8Gi
+
+Disk Usage: 28%
+
+Logged in Users:
+iti      sshd pts/0   2026-02-27 12:53 (192.168.1.2)
+iti      seat0        2026-02-27 12:47
+iti      tty1         2026-02-27 12:47
+

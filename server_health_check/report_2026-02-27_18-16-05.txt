@@ -1,0 +1,15 @@
+==========Server-Health-check========
+
+Date: Fri Feb 27 18:16:05 IST 2026
+
+CPU Usage:
+18:16  up 4 days, 15:13, 2 users, load averages: 1.98 2.50 2.84
+
+Memory Usage:
+
+Disk Usage: 1%
+
+Logged in Users:
+iti              console      23 Feb 03:03 
+iti              ttys000      25 Feb 06:10 
+
