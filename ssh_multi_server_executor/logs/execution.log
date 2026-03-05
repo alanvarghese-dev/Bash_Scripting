@@ -1,0 +1,477 @@
+[2026-03-03 02:19:20] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-03 03:47:19] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-03 03:47:19] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-03 03:47:19] [INFO] Added server: local (localhost:22@iti)
+[2026-03-03 03:47:19] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-03 03:47:19] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-03 03:47:19] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-03 03:47:20] [ERROR] 0: Command failed with exit code 255
+[2026-03-03 03:47:20] [INFO] Execution completed: 0/1 successful
+[2026-03-04 09:55:29] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 09:55:29] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 09:55:29] [INFO] Added server: local (localhost:22@iti)
+[2026-03-04 09:55:29] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 09:55:29] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 09:55:29] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 09:55:29] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 09:55:29] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 09:55:29] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 09:55:29] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 09:55:29] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 10:00:46] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 10:00:46] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 10:00:46] [INFO] Added server: local (localhost:22@iti)
+[2026-03-04 10:00:46] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 10:00:46] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 10:00:46] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 10:00:46] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 10:00:46] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 10:00:46] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 10:00:46] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 10:00:46] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 10:00:47] [ERROR] 0: Command failed with exit code 255
+[2026-03-04 10:00:47] [INFO] Execution completed: 0/1 successful
+[2026-03-04 10:38:06] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 10:38:06] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 10:38:06] [INFO] Added server: local (localhost:22@iti)
+[2026-03-04 10:38:06] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 10:38:06] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 10:38:06] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 10:38:06] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 10:38:06] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 10:38:06] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 10:38:06] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 10:38:06] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 10:38:07] [INFO] 0: Command executed successfully
+[2026-03-04 10:38:07] [INFO] Execution completed: 1/1 successful
+[2026-03-04 13:18:55] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 13:18:55] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 13:18:55] [INFO] Added server: local (localhost:22@iti)
+[2026-03-04 13:18:55] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 13:18:55] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 13:18:55] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 13:18:55] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 13:18:55] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 13:18:55] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 13:18:55] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 13:18:55] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 13:21:53] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 13:21:53] [INFO] Reading server configuration from: servers.conf
+[2026-03-04 13:21:53] [INFO] Added server: local (localhost:22@iti)
+[2026-03-04 13:21:53] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 13:21:53] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 13:21:53] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 13:21:53] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 13:21:53] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 13:21:53] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 13:21:53] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 13:21:53] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 13:21:55] [INFO] "db1": Command executed successfully
+[2026-03-04 13:21:55] [ERROR] "local": Command failed with exit code 255
+[2026-03-04 13:22:28] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 13:22:28] [INFO] Reading server configuration from: /tmp/docker_servers.conf
+[2026-03-04 13:22:28] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 13:22:28] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 13:22:28] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 13:22:28] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 13:22:29] [INFO] "db1": Command executed successfully
+[2026-03-04 13:22:29] [INFO] "lb1": Command executed successfully
+[2026-03-04 13:22:29] [INFO] "web2": Command executed successfully
+[2026-03-04 13:22:29] [INFO] "web1": Command executed successfully
+[2026-03-04 13:22:29] [INFO] Execution completed: 4/4 successful
+[2026-03-04 14:32:19] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 14:32:19] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 14:32:19] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 14:32:19] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 14:32:19] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 14:32:19] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 14:32:19] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 14:32:19] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 14:32:19] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 14:32:19] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 14:45:48] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 14:45:48] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 14:45:48] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 14:45:48] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 14:45:48] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 14:45:48] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 14:45:48] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 14:45:48] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 14:45:48] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 14:45:48] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 14:47:14] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 14:47:14] [INFO] Reading server configuration from: /tmp/docker.conf
+[2026-03-04 14:47:14] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 14:47:14] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 14:47:14] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 14:47:14] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 14:47:15] [INFO] web1: Command executed successfully
+[2026-03-04 14:47:15] [INFO] web2: Command executed successfully
+[2026-03-04 14:47:15] [INFO] db1: Command executed successfully
+[2026-03-04 14:47:15] [INFO] lb1: Command executed successfully
+[2026-03-04 14:47:15] [INFO] Execution completed: 4/4 successful
+[2026-03-04 14:53:17] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 14:53:17] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 14:53:17] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 14:53:17] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 14:53:17] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 14:53:17] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 14:53:17] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 14:53:17] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 14:53:17] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 14:53:17] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 14:53:18] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR] web1: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR] web2: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR] db1: Command failed with exit code 255
+[2026-03-04 14:53:18] [ERROR] lb1: Command failed with exit code 255
+[2026-03-04 14:53:18] [INFO] Execution completed: 0/8 successful
+[2026-03-04 14:55:20] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 14:55:20] [INFO] Reading server configuration from: servers.conf
+[2026-03-04 14:55:20] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 14:55:20] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 14:55:20] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 14:55:20] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 14:55:20] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 14:55:20] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 14:55:20] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 14:55:20] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 14:55:21] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 14:55:21] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 14:55:21] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 14:55:21] [INFO]  vm4: Command executed successfully
+[2026-03-04 14:55:21] [INFO] web1: Command executed successfully
+[2026-03-04 14:55:21] [INFO] web2: Command executed successfully
+[2026-03-04 14:55:21] [INFO] db1: Command executed successfully
+[2026-03-04 14:55:21] [INFO] lb1: Command executed successfully
+[2026-03-04 14:55:21] [INFO] Execution completed: 5/8 successful
+[2026-03-04 16:08:59] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:08:59] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:08:59] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:08:59] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:08:59] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:08:59] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:08:59] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:08:59] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:08:59] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:08:59] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:09:00] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 16:09:00] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 16:09:00] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 16:09:00] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 16:09:00] [INFO] web1: Command executed successfully
+[2026-03-04 16:09:00] [INFO] web2: Command executed successfully
+[2026-03-04 16:09:00] [INFO] db1: Command executed successfully
+[2026-03-04 16:09:00] [INFO] lb1: Command executed successfully
+[2026-03-04 16:09:00] [INFO] Execution completed: 4/8 successful
+[2026-03-04 16:23:56] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:23:56] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:23:56] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:23:56] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:23:56] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:23:56] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:23:56] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:23:56] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:23:56] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:23:56] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:23:57] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 16:23:57] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 16:23:57] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 16:23:57] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 16:23:57] [INFO] web1: Command executed successfully
+[2026-03-04 16:23:57] [INFO] web2: Command executed successfully
+[2026-03-04 16:23:57] [INFO] db1: Command executed successfully
+[2026-03-04 16:23:57] [INFO] lb1: Command executed successfully
+[2026-03-04 16:23:57] [INFO] Execution completed: 4/8 successful
+[2026-03-04 16:25:24] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:25:24] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:25:24] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:25:24] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:25:24] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:25:24] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:25:24] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:25:24] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:25:24] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:25:24] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:25:25] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 16:25:25] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 16:25:25] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 16:25:25] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 16:25:25] [INFO] web1: Command executed successfully
+[2026-03-04 16:25:25] [INFO] web2: Command executed successfully
+[2026-03-04 16:25:25] [INFO] db1: Command executed successfully
+[2026-03-04 16:25:25] [INFO] lb1: Command executed successfully
+[2026-03-04 16:25:25] [INFO] Execution completed: 4/8 successful
+[2026-03-04 16:26:20] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:26:20] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:26:20] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:26:20] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:26:20] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:26:20] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:26:20] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:26:20] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:26:20] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:26:20] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:26:21] [INFO]  vm1: Command executed successfully
+[2026-03-04 16:26:21] [INFO]  vm2: Command executed successfully
+[2026-03-04 16:26:21] [INFO]  vm3: Command executed successfully
+[2026-03-04 16:26:21] [INFO]  vm4: Command executed successfully
+[2026-03-04 16:26:21] [INFO] web1: Command executed successfully
+[2026-03-04 16:26:21] [INFO] web2: Command executed successfully
+[2026-03-04 16:26:21] [INFO] db1: Command executed successfully
+[2026-03-04 16:26:21] [INFO] lb1: Command executed successfully
+[2026-03-04 16:26:21] [INFO] Execution completed: 8/8 successful
+[2026-03-04 16:28:37] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:28:37] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:28:37] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:28:37] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:28:37] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:28:37] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:28:37] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:28:37] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:28:37] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:28:37] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:28:38] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 16:28:38] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 16:28:38] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 16:28:38] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 16:28:38] [INFO] web1: Command executed successfully
+[2026-03-04 16:28:38] [INFO] web2: Command executed successfully
+[2026-03-04 16:28:38] [INFO] db1: Command executed successfully
+[2026-03-04 16:28:38] [INFO] lb1: Command executed successfully
+[2026-03-04 16:28:38] [INFO] Execution completed: 4/8 successful
+[2026-03-04 16:29:54] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:29:54] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:29:54] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:29:54] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:29:54] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:29:54] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:29:54] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:29:54] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:29:54] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:29:54] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:29:56] [INFO]  vm1: Command executed successfully
+[2026-03-04 16:29:56] [INFO]  vm2: Command executed successfully
+[2026-03-04 16:29:56] [INFO]  vm3: Command executed successfully
+[2026-03-04 16:29:56] [INFO]  vm4: Command executed successfully
+[2026-03-04 16:29:56] [INFO] web1: Command executed successfully
+[2026-03-04 16:29:56] [INFO] web2: Command executed successfully
+[2026-03-04 16:29:56] [INFO] db1: Command executed successfully
+[2026-03-04 16:29:56] [INFO] lb1: Command executed successfully
+[2026-03-04 16:29:56] [INFO] Execution completed: 8/8 successful
+[2026-03-04 16:30:23] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 16:30:23] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 16:30:23] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 16:30:23] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 16:30:23] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 16:30:23] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 16:30:23] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 16:30:23] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 16:30:23] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 16:30:23] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 16:30:24] [INFO]  vm1: Command executed successfully
+[2026-03-04 16:30:24] [INFO]  vm2: Command executed successfully
+[2026-03-04 16:30:24] [INFO]  vm3: Command executed successfully
+[2026-03-04 16:30:24] [INFO]  vm4: Command executed successfully
+[2026-03-04 16:30:24] [INFO] web1: Command executed successfully
+[2026-03-04 16:30:24] [INFO] web2: Command executed successfully
+[2026-03-04 16:30:24] [INFO] db1: Command executed successfully
+[2026-03-04 16:30:24] [INFO] lb1: Command executed successfully
+[2026-03-04 16:30:24] [INFO] Execution completed: 8/8 successful
+[2026-03-04 17:37:10] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 17:37:10] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 17:37:10] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 17:37:10] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 17:37:10] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 17:37:10] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 17:37:10] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 17:37:10] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 17:37:10] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 17:37:10] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 17:37:40] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 17:37:40] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 17:37:40] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 17:37:40] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 17:37:40] [INFO] web1: Command executed successfully
+[2026-03-04 17:37:40] [INFO] web2: Command executed successfully
+[2026-03-04 17:37:40] [INFO] db1: Command executed successfully
+[2026-03-04 17:37:40] [INFO] lb1: Command executed successfully
+[2026-03-04 17:37:40] [INFO] Execution completed: 4/8 successful
+[2026-03-04 17:41:36] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 17:41:36] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 17:41:36] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 17:41:36] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 17:41:36] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 17:41:36] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 17:41:36] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 17:41:36] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 17:41:36] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 17:41:36] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 17:42:06] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 17:42:06] [INFO]  vm2: Command executed successfully
+[2026-03-04 17:42:06] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 17:42:06] [INFO]  vm4: Command executed successfully
+[2026-03-04 17:42:06] [INFO] web1: Command executed successfully
+[2026-03-04 17:42:06] [INFO] web2: Command executed successfully
+[2026-03-04 17:42:06] [INFO] db1: Command executed successfully
+[2026-03-04 17:42:06] [INFO] lb1: Command executed successfully
+[2026-03-04 17:42:06] [INFO] Execution completed: 6/8 successful
+[2026-03-04 18:22:10] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 18:22:10] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 18:22:10] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 18:22:10] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 18:22:10] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 18:22:10] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 18:22:10] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 18:22:10] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 18:22:10] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 18:22:10] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 18:22:12] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 18:22:12] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 18:22:12] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 18:22:12] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 18:22:12] [INFO] web1: Command executed successfully
+[2026-03-04 18:22:12] [INFO] web2: Command executed successfully
+[2026-03-04 18:22:12] [INFO] db1: Command executed successfully
+[2026-03-04 18:22:12] [INFO] lb1: Command executed successfully
+[2026-03-04 18:22:12] [INFO] Execution completed: 4/8 successful
+[2026-03-04 18:41:15] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-04 18:41:15] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-04 18:41:15] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-04 18:41:15] [INFO] Added server:  vm2 (10.230.214.136:22@iti)
+[2026-03-04 18:41:15] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-04 18:41:15] [INFO] Added server:  vm4 (10.230.214.187:22@iti)
+[2026-03-04 18:41:15] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-04 18:41:15] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-04 18:41:15] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-04 18:41:15] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-04 18:41:16] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-04 18:41:16] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-04 18:41:16] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-04 18:41:16] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-04 18:41:16] [INFO] web1: Command executed successfully
+[2026-03-04 18:41:16] [INFO] web2: Command executed successfully
+[2026-03-04 18:41:16] [INFO] db1: Command executed successfully
+[2026-03-04 18:41:16] [INFO] lb1: Command executed successfully
+[2026-03-04 18:41:16] [INFO] Execution completed: 4/8 successful
+[2026-03-05 02:37:31] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-05 02:37:31] [INFO] Reading server configuration from: servers.conf
+[2026-03-05 02:37:31] [INFO] Added server:  vm1 (10.230.214.142:22@iti)
+[2026-03-05 02:37:31] [INFO] Added server:  vm2 (kali:22@iti)
+[2026-03-05 02:37:31] [INFO] Added server:  vm3 (10.230.214.203:22@iti)
+[2026-03-05 02:37:31] [INFO] Added server:  vm4 (k8subuntumaster:22@iti)
+[2026-03-05 02:37:31] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-05 02:37:31] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-05 02:37:31] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-05 02:37:31] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-05 02:38:01] [ERROR]  vm1: Command failed with exit code 255
+[2026-03-05 02:38:01] [ERROR]  vm2: Command failed with exit code 255
+[2026-03-05 02:38:01] [ERROR]  vm3: Command failed with exit code 255
+[2026-03-05 02:38:01] [ERROR]  vm4: Command failed with exit code 255
+[2026-03-05 02:38:01] [INFO] web1: Command executed successfully
+[2026-03-05 02:38:01] [INFO] web2: Command executed successfully
+[2026-03-05 02:38:01] [INFO] db1: Command executed successfully
+[2026-03-05 02:38:01] [INFO] lb1: Command executed successfully
+[2026-03-05 02:38:01] [INFO] Execution completed: 4/8 successful
+[2026-03-05 02:42:58] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-05 02:42:58] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-05 02:42:58] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-05 02:42:58] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-05 02:42:58] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-05 02:42:58] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-05 02:42:59] [INFO] web1: Command executed successfully
+[2026-03-05 02:42:59] [INFO] web2: Command executed successfully
+[2026-03-05 02:42:59] [INFO] db1: Command executed successfully
+[2026-03-05 02:42:59] [INFO] lb1: Command executed successfully
+[2026-03-05 02:42:59] [INFO] Execution completed: 4/4 successful
+[2026-03-05 23:48:36] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-05 23:48:36] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-05 23:48:36] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-05 23:48:36] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-05 23:48:36] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-05 23:48:36] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-05 23:48:36] [INFO] web1: Command executed successfully
+[2026-03-05 23:48:36] [INFO] web2: Command executed successfully
+[2026-03-05 23:48:36] [INFO] db1: Command executed successfully
+[2026-03-05 23:48:36] [INFO] lb1: Command executed successfully
+[2026-03-05 23:48:36] [INFO] Execution completed: 4/4 successful
+[2026-03-05 23:49:12] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-05 23:49:12] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-05 23:49:12] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-05 23:49:12] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-05 23:49:12] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-05 23:49:12] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-05 23:49:12] [INFO] web1: Command executed successfully
+[2026-03-05 23:49:12] [INFO] web2: Command executed successfully
+[2026-03-05 23:49:12] [INFO] db1: Command executed successfully
+[2026-03-05 23:49:12] [INFO] lb1: Command executed successfully
+[2026-03-05 23:49:12] [INFO] Execution completed: 4/4 successful
+[2026-03-05 23:56:40] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-05 23:56:40] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-05 23:56:40] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-05 23:56:40] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-05 23:56:40] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-05 23:56:40] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-05 23:56:40] [ERROR] web1: Command failed with exit code 255
+[2026-03-05 23:56:40] [INFO] web2: Command executed successfully
+[2026-03-05 23:56:40] [INFO] db1: Command executed successfully
+[2026-03-05 23:56:40] [INFO] lb1: Command executed successfully
+[2026-03-05 23:56:40] [INFO] Execution completed: 3/4 successful
+[2026-03-06 00:09:05] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-06 00:09:05] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-06 00:09:05] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-06 00:09:05] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-06 00:09:05] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-06 00:09:05] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-06 00:09:05] [ERROR] web1: Command failed with exit code 255
+[2026-03-06 00:09:05] [ERROR] web2: Command failed with exit code 255
+[2026-03-06 00:09:05] [ERROR] db1: Command failed with exit code 255
+[2026-03-06 00:09:05] [ERROR] lb1: Command failed with exit code 255
+[2026-03-06 00:09:05] [INFO] Execution completed: 0/4 successful
+[2026-03-06 00:10:35] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-06 00:10:35] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-06 00:10:35] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-06 00:10:35] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-06 00:10:35] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-06 00:10:35] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-06 00:10:35] [ERROR] web1: Command failed with exit code 255
+[2026-03-06 00:10:35] [ERROR] web2: Command failed with exit code 255
+[2026-03-06 00:10:35] [ERROR] db1: Command failed with exit code 255
+[2026-03-06 00:10:35] [ERROR] lb1: Command failed with exit code 255
+[2026-03-06 00:10:35] [INFO] Execution completed: 0/4 successful
+[2026-03-06 00:13:47] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-06 00:13:47] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-06 00:13:47] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-06 00:13:47] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-06 00:13:47] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-06 00:13:47] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-06 00:13:48] [INFO] web1: Command executed successfully
+[2026-03-06 00:13:48] [INFO] web2: Command executed successfully
+[2026-03-06 00:13:48] [INFO] db1: Command executed successfully
+[2026-03-06 00:13:48] [INFO] lb1: Command executed successfully
+[2026-03-06 00:13:48] [INFO] Execution completed: 4/4 successful
+[2026-03-06 00:19:25] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-06 00:19:25] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-06 00:19:25] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-06 00:19:25] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-06 00:19:25] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-06 00:19:25] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-06 00:19:26] [INFO] web1: Command executed successfully
+[2026-03-06 00:19:26] [INFO] web2: Command executed successfully
+[2026-03-06 00:19:26] [INFO] db1: Command executed successfully
+[2026-03-06 00:19:26] [INFO] lb1: Command executed successfully
+[2026-03-06 00:19:26] [INFO] Execution completed: 4/4 successful
+[2026-03-06 00:31:21] [INFO] === SSH Multi-Server Execution Started ===
+[2026-03-06 00:31:21] [INFO] Reading server configuration from: /Users/iti/Documents/My Mac Docu/Projects/Bash_Scripting/ssh_multi_server_executor/servers.conf
+[2026-03-06 00:31:21] [INFO] Added server: web1 (localhost:2221@root)
+[2026-03-06 00:31:21] [INFO] Added server: web2 (localhost:2222@root)
+[2026-03-06 00:31:21] [INFO] Added server: db1 (localhost:2223@root)
+[2026-03-06 00:31:21] [INFO] Added server: lb1 (localhost:2224@root)
+[2026-03-06 00:31:21] [INFO] web1: Command executed successfully
+[2026-03-06 00:31:21] [INFO] web2: Command executed successfully
+[2026-03-06 00:31:21] [INFO] db1: Command executed successfully
+[2026-03-06 00:31:21] [INFO] lb1: Command executed successfully
+[2026-03-06 00:31:21] [INFO] Execution completed: 4/4 successful
