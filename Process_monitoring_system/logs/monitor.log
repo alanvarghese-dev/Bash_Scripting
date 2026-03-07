@@ -1,0 +1,59 @@
+[2026-03-06 05:41:19] [INFO] Process monitoring started
+[2026-03-06 05:41:19] [INFO] Monitoring 6 containers
+[2026-03-06 05:41:19] [INFO]   - mysql-server
+[2026-03-06 05:41:19] [INFO]   - mongo-server
+[2026-03-06 05:41:19] [INFO]   - nginx-server
+[2026-03-06 05:41:19] [INFO]   - postgres-server
+[2026-03-06 05:41:19] [INFO]   - rabbitmq-server
+[2026-03-06 05:41:19] [INFO]   - redis-server
+[2026-03-06 05:41:24] [INFO] Stopping process monitor
+[2026-03-06 18:02:43] [INFO] Process monitoring started
+[2026-03-06 18:02:43] [INFO] Monitoring 6 containers
+[2026-03-06 18:02:43] [INFO]   - mysql-server
+[2026-03-06 18:02:43] [INFO]   - mongo-server
+[2026-03-06 18:02:43] [INFO]   - nginx-server
+[2026-03-06 18:02:43] [INFO]   - postgres-server
+[2026-03-06 18:02:43] [INFO]   - rabbitmq-server
+[2026-03-06 18:02:43] [INFO]   - redis-server
+[2026-03-06 18:03:07] [INFO] Stopping process monitor
+[2026-03-06 18:05:30] [INFO] Process monitoring started
+[2026-03-06 18:05:30] [INFO] Monitoring 6 containers
+[2026-03-06 18:05:30] [INFO]   - mysql-server
+[2026-03-06 18:05:30] [INFO]   - mongo-server
+[2026-03-06 18:05:30] [INFO]   - nginx-server
+[2026-03-06 18:05:30] [INFO]   - postgres-server
+[2026-03-06 18:05:30] [INFO]   - rabbitmq-server
+[2026-03-06 18:05:30] [INFO]   - redis-server
+[2026-03-06 18:05:35] [INFO] Stopping process monitor
+[2026-03-06 18:05:44] [INFO] Process monitoring started
+[2026-03-06 18:05:44] [INFO] Monitoring 6 containers
+[2026-03-06 18:05:44] [INFO]   - mysql-server
+[2026-03-06 18:05:44] [INFO]   - mongo-server
+[2026-03-06 18:05:44] [INFO]   - nginx-server
+[2026-03-06 18:05:44] [INFO]   - postgres-server
+[2026-03-06 18:05:44] [INFO]   - rabbitmq-server
+[2026-03-06 18:05:44] [INFO]   - redis-server
+[2026-03-06 18:05:47] [INFO] Stopping process monitor
+[2026-03-07 05:58:45] [INFO] Process monitoring started
+[2026-03-07 05:58:45] [INFO] Monitoring 6 containers
+[2026-03-07 05:58:45] [INFO]   - mysql-server
+[2026-03-07 05:58:45] [INFO]   - mongo-server
+[2026-03-07 05:58:45] [INFO]   - nginx-server
+[2026-03-07 05:58:45] [INFO]   - postgres-server
+[2026-03-07 05:58:45] [INFO]   - rabbitmq-server
+[2026-03-07 05:58:45] [INFO]   - redis-server
+[2026-03-07 05:59:08] [WARN] High CPU usage: 92%
+[2026-03-07 06:07:29] [INFO] Process monitoring started
+[2026-03-07 06:07:29] [INFO] Monitoring 6 containers
+[2026-03-07 06:07:29] [INFO]   - mysql-server
+[2026-03-07 06:07:29] [INFO]   - mongo-server
+[2026-03-07 06:07:29] [INFO]   - nginx-server
+[2026-03-07 06:07:29] [INFO]   - postgres-server
+[2026-03-07 06:07:29] [INFO]   - rabbitmq-server
+[2026-03-07 06:07:29] [INFO]   - redis-server
+[2026-03-07 06:07:53] [WARN] High CPU usage: 93%
+[2026-03-07 06:09:10] [WARN] High CPU usage: 81%
+[2026-03-07 06:10:27] [WARN] High CPU usage: 88%
+[2026-03-07 06:11:44] [WARN] High CPU usage: 92%
+[2026-03-07 06:13:00] [WARN] High CPU usage: 81%
+[2026-03-07 06:13:03] [INFO] Stopping process monitor

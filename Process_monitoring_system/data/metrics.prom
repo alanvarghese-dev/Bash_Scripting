@@ -1,0 +1,531 @@
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772842307
+system_load_average{period="5m"} 0 1772842307
+system_load_average{period="15m"} 0 1772842307
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 90.87 1772842307
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772842656
+system_load_average{period="5m"} 0 1772842656
+system_load_average{period="15m"} 0 1772842656
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 89.66 1772842656
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772842870
+system_load_average{period="5m"} 0 1772842870
+system_load_average{period="15m"} 0 1772842870
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 87.14 1772842870
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772842910
+system_load_average{period="5m"} 0 1772842910
+system_load_average{period="15m"} 0 1772842910
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 87.41 1772842910
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772842910
+system_memory_used_bytes 7118848000 1772842910
+system_memory_free_bytes 5311053824 1772842910
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772842910
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 7511 1772842910
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772842910
+process_running{name="redis"} 0 1772842910
+process_running{name="mysqld"} 0 1772842910
+process_running{name="postgres"} 0 1772842910
+process_running{name="mongod"} 0 1772842910
+process_running{name="rabbitmq-server"} 0 1772842910
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772842910
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772842910
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772842910
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772842910
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.32 1772842910
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772842910
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772842910
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.53 1772842910
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772842910
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772842910
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.00 1772842910
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772842910
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772842910
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.45 1772842910
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.76 1772842910
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772842910
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.99 1772842910
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.11 1772842910
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772843146
+system_load_average{period="5m"} 0 1772843146
+system_load_average{period="15m"} 0 1772843146
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 90.73 1772843146
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772843146
+system_memory_used_bytes 7300644864 1772843146
+system_memory_free_bytes 4892557312 1772843146
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772843146
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 7748 1772843146
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772843147
+process_running{name="redis"} 0 1772843147
+process_running{name="mysqld"} 0 1772843147
+process_running{name="postgres"} 0 1772843147
+process_running{name="mongod"} 0 1772843147
+process_running{name="rabbitmq-server"} 0 1772843147
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772843147
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772843147
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772843147
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772843147
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.32 1772843147
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772843147
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772843147
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.56 1772843147
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772843147
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772843147
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.00 1772843147
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772843147
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772843147
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.69 1772843147
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.79 1772843147
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772843147
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.97 1772843147
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.12 1772843147
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772843257
+system_load_average{period="5m"} 0 1772843257
+system_load_average{period="15m"} 0 1772843257
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 90.54 1772843257
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772843257
+system_memory_used_bytes 7516241920 1772843257
+system_memory_free_bytes 4461248512 1772843257
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772843257
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 7858 1772843257
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772843257
+process_running{name="redis"} 0 1772843257
+process_running{name="mysqld"} 0 1772843257
+process_running{name="postgres"} 0 1772843257
+process_running{name="mongod"} 0 1772843257
+process_running{name="rabbitmq-server"} 0 1772843257
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772843257
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772843257
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772843257
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772843257
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.21 1772843257
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772843257
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772843257
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.51 1772843257
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772843257
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772843257
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.00 1772843257
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772843257
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772843257
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.77 1772843257
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.79 1772843257
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772843257
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.89 1772843257
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.12 1772843257
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772843762
+system_load_average{period="5m"} 0 1772843762
+system_load_average{period="15m"} 0 1772843762
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 89.37 1772843762
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772843762
+system_memory_used_bytes 7808057344 1772843762
+system_memory_free_bytes 3930456064 1772843762
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772843762
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 8363 1772843762
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772843762
+process_running{name="redis"} 0 1772843762
+process_running{name="mysqld"} 0 1772843762
+process_running{name="postgres"} 0 1772843762
+process_running{name="mongod"} 0 1772843762
+process_running{name="rabbitmq-server"} 0 1772843762
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772843762
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772843762
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772843762
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772843762
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.32 1772843762
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772843762
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772843762
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.56 1772843762
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772843762
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772843762
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.00 1772843762
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772843762
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772843762
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.63 1772843762
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.84 1772843762
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772843762
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.25 1772843762
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.12 1772843762
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772843874
+system_load_average{period="5m"} 0 1772843874
+system_load_average{period="15m"} 0 1772843874
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 89.52 1772843874
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772843874
+system_memory_used_bytes 7736754176 1772843874
+system_memory_free_bytes 3971039232 1772843874
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772843874
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 8475 1772843874
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772843874
+process_running{name="redis"} 0 1772843874
+process_running{name="mysqld"} 0 1772843874
+process_running{name="postgres"} 0 1772843874
+process_running{name="mongod"} 0 1772843874
+process_running{name="rabbitmq-server"} 0 1772843874
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772843874
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772843874
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772843874
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772843874
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.38 1772843874
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772843874
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772843874
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.62 1772843874
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772843874
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772843874
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.00 1772843874
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772843874
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772843874
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.60 1772843874
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.87 1772843874
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772843874
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.21 1772843874
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.11 1772843874
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772843950
+system_load_average{period="5m"} 0 1772843950
+system_load_average{period="15m"} 0 1772843950
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 75.10 1772843950
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772843950
+system_memory_used_bytes 7954923520 1772843950
+system_memory_free_bytes 3740532736 1772843950
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772843950
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 8552 1772843950
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772843951
+process_running{name="redis"} 0 1772843951
+process_running{name="mysqld"} 0 1772843951
+process_running{name="postgres"} 0 1772843951
+process_running{name="mongod"} 0 1772843951
+process_running{name="rabbitmq-server"} 0 1772843951
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772843951
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772843951
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772843951
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772843951
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.34 1772843951
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.38 1772843951
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772843951
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.55 1772843951
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772843951
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772843951
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.01 1772843951
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772843951
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772843951
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.58 1772843951
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.86 1772843951
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772843951
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.70 1772843951
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.11 1772843951
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772844027
+system_load_average{period="5m"} 0 1772844027
+system_load_average{period="15m"} 0 1772844027
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 87.22 1772844027
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772844027
+system_memory_used_bytes 7911768064 1772844027
+system_memory_free_bytes 4008656896 1772844027
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772844027
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 8628 1772844027
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772844027
+process_running{name="redis"} 0 1772844027
+process_running{name="mysqld"} 0 1772844027
+process_running{name="postgres"} 0 1772844027
+process_running{name="mongod"} 0 1772844027
+process_running{name="rabbitmq-server"} 0 1772844027
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772844027
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772844027
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772844027
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772844027
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.28 1772844027
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772844027
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772844027
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.81 1772844027
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772844027
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772844027
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.00 1772844027
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772844027
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772844027
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.68 1772844027
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.87 1772844027
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772844027
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 42.37 1772844027
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.11 1772844027
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772844104
+system_load_average{period="5m"} 0 1772844104
+system_load_average{period="15m"} 0 1772844104
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 91.41 1772844104
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772844104
+system_memory_used_bytes 7814496256 1772844104
+system_memory_free_bytes 3742121984 1772844104
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772844104
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 8705 1772844104
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772844104
+process_running{name="redis"} 0 1772844104
+process_running{name="mysqld"} 0 1772844104
+process_running{name="postgres"} 0 1772844104
+process_running{name="mongod"} 0 1772844104
+process_running{name="rabbitmq-server"} 0 1772844104
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
+container_status{container="nginx-server",hostname="nginx",role="web"} 1 1772844104
+container_cpu_percent{container="nginx-server",hostname="nginx",role="web"} 0.00 1772844104
+container_memory_percent{container="nginx-server",hostname="nginx",role="web"} 0.21 1772844104
+container_status{container="redis-server",hostname="redis",role="cache"} 1 1772844104
+container_cpu_percent{container="redis-server",hostname="redis",role="cache"} 0.23 1772844104
+container_memory_percent{container="redis-server",hostname="redis",role="cache"} 0.39 1772844104
+container_status{container="mysql-server",hostname="mysql",role="database"} 1 1772844104
+container_cpu_percent{container="mysql-server",hostname="mysql",role="database"} 0.83 1772844104
+container_memory_percent{container="mysql-server",hostname="mysql",role="database"} 6.69 1772844104
+container_status{container="postgres-server",hostname="postgres",role="database"} 1 1772844104
+container_cpu_percent{container="postgres-server",hostname="postgres",role="database"} 0.01 1772844104
+container_memory_percent{container="postgres-server",hostname="postgres",role="database"} 0.67 1772844104
+container_status{container="mongo-server",hostname="mongo",role="database"} 1 1772844104
+container_cpu_percent{container="mongo-server",hostname="mongo",role="database"} 0.91 1772844104
+container_memory_percent{container="mongo-server",hostname="mongo",role="database"} 3.89 1772844104
+container_status{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 1 1772844104
+container_cpu_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 0.97 1772844104
+container_memory_percent{container="rabbitmq-server",hostname="rabbitmq",role="queue"} 2.11 1772844104
+# HELP system_load_average System load average
+# TYPE system_load_average gauge
+system_load_average{period="1m"} 0 1772844180
+system_load_average{period="5m"} 0 1772844180
+system_load_average{period="15m"} 0 1772844180
+
+# HELP system_cpu_usage System CPU usage percentage
+# TYPE system_cpu_usage gauge
+system_cpu_usage 76.30 1772844180
+
+# HELP system_memory_usage System memory usage
+# TYPE system_memory_usage gauge
+system_memory_total_bytes 19327352832 1772844180
+system_memory_used_bytes 7998554112 1772844180
+system_memory_free_bytes 3522641920 1772844180
+
+# HELP system_disk_usage System disk usage percentage
+# TYPE system_disk_usage gauge
+system_disk_usage{path="/"} 1 1772844180
+
+# HELP system_uptime System uptime in seconds
+# TYPE system_uptime gauge
+system_uptime 8782 1772844180
+
+# HELP process_info Process information
+# TYPE process_info gauge
+process_running{name="nginx"} 0 1772844181
+process_running{name="redis"} 0 1772844181
+process_running{name="mysqld"} 0 1772844181
+process_running{name="postgres"} 0 1772844181
+process_running{name="mongod"} 0 1772844181
+process_running{name="rabbitmq-server"} 0 1772844181
+
+# HELP container_status Container status
+# TYPE container_status gauge
+# HELP container_cpu_percent Container CPU usage percentage
+# TYPE container_cpu_percent gauge
+# HELP container_memory_percent Container memory usage percentage
+# TYPE container_memory_percent gauge
