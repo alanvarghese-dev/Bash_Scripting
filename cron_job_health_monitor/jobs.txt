@@ -1,0 +1,10 @@
+# Cron Job Health Monitor - Job Definitions
+# Format: JOB_NAME | SCHEDULE | COMMAND
+# Lines starting with # or empty lines are ignored
+
+# Example jobs (uncomment and modify as needed)
+
+# backup_job   | daily at 2am   | /usr/local/bin/backup.sh
+# data_sync    | hourly         | /usr/local/bin/sync_data.py
+# report_gen   | daily at 8am   | /usr/local/bin/generate_report.sh
+# cleanup      | weekly        | /usr/local/bin/cleanup_old_files.sh

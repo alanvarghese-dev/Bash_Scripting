@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  server1:
+    image: rastasheep/ubuntu-sshd:18.04
+    container_name: server1
+    hostname: server1
+    ports:
+      - "2221:22"
+    volumes:
+      - ./ssh_keys:/ssh_keys:ro
+    command: ["/bin/sh", "-c", "apt-get update && apt-get install -y cron && cat /ssh_keys/id_rsa.pub >> /root/.ssh/authorized_keys && /usr/sbin/sshd && /usr/sbin/cron && tail -f /dev/null"]
+    networks:
+      - cron_network
+
+  server2:
+    image: rastasheep/ubuntu-sshd:18.04
+    container_name: server2
+    hostname: server2
+    ports:
+      - "2222:22"
+    volumes:
+      - ./ssh_keys:/ssh_keys:ro
+    command: ["/bin/sh", "-c", "apt-get update && apt-get install -y cron && cat /ssh_keys/id_rsa.pub >> /root/.ssh/authorized_keys && /usr/sbin/sshd && /usr/sbin/cron && tail -f /dev/null"]
+    networks:
+      - cron_network
+
+  server3:
+    image: rastasheep/ubuntu-sshd:18.04
+    container_name: server3
+    hostname: server3
+    ports:
+      - "2223:22"
+    volumes:
+      - ./ssh_keys:/ssh_keys:ro
+    command: ["/bin/sh", "-c", "apt-get update && apt-get install -y cron && cat /ssh_keys/id_rsa.pub >> /root/.ssh/authorized_keys && /usr/sbin/sshd && /usr/sbin/cron && tail -f /dev/null"]
+    networks:
+      - cron_network
+
+networks:
+  cron_network:
+    driver: bridge

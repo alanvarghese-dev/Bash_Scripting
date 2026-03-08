@@ -1,0 +1,7 @@
+# Server List
+# One hostname or IP per line
+# Format: hostname_or_ip
+
+server1
+server2
+server3
