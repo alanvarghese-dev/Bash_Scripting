@@ -1,0 +1,31 @@
+services:
+  server1:
+    build: .
+    container_name: server1
+    ports:
+      - "2222:22"
+    networks:
+      - monitoring_network
+    restart: unless-stopped
+
+  server2:
+    build: .
+    container_name: server2
+    ports:
+      - "2223:22"
+    networks:
+      - monitoring_network
+    restart: unless-stopped
+
+  server3:
+    build: .
+    container_name: server3
+    ports:
+      - "2224:22"
+    networks:
+      - monitoring_network
+    restart: unless-stopped
+
+networks:
+  monitoring_network:
+    driver: bridge

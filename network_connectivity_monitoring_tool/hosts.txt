@@ -1,0 +1,7 @@
+# List of target servers to monitor (one per line)
+# Format: hostname:port or IP:port
+
+# Test servers (localhost with non-standard SSH ports)
+localhost:2222
+localhost:2223
+localhost:2224
