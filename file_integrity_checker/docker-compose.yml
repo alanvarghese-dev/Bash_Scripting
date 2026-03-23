@@ -1,0 +1,32 @@
+services:
+  file_integrity_checker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: file_integrity_checker
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./file_integrity_checker.sh:/app/file_integrity_checker.sh:ro
+      - ./config.ini:/app/config.ini:ro
+      - ./file_integrity.db:/app/file_integrity.db
+      - ./error_log.txt:/app/error_log.txt
+    networks:
+      - fic-network
+    depends_on:
+      - mailhog
+
+  # MailHog for email testing
+  mailhog:
+    image: mailhog/mailhog:latest
+    platform: linux/amd64
+    container_name: mailhog
+    ports:
+      - "1025:1025"  # SMTP
+      - "8025:8025"  # Web UI
+    networks:
+      - fic-network
+
+networks:
+  fic-network:
+    driver: bridge

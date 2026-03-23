@@ -1,0 +1,22 @@
+[2026-03-15 01:33:17] Directory not found: /etc/myapp/config
+[2026-03-15 01:33:17] Directory not found: /opt/application/data
+[2026-03-15 01:33:17] Directory not found: /etc/nginx
+[2026-03-15 01:33:17] Directory not found: /var/log/myapp/
+[2026-03-15 01:33:17] No files found to monitor
+[2026-03-15 02:03:19] Directory not found: /etc/myapp/config
+[2026-03-15 02:03:19] Directory not found: /opt/application/data
+[2026-03-15 02:03:19] Directory not found: /etc/nginx
+[2026-03-15 02:03:19] Directory not found: /var/log/myapp/
+[2026-03-15 02:03:19] No files found to monitor
+[2026-03-14 21:17:05] File modified: /etc/myapp/config/app.yaml (old: 9cfab71add1f36a7e6b76b10a9c2a46ef8911dcbdea5ab75eeb0e717221e4e30, new: 7f582b083a70e1d403e40c91aa6fc31b8b6fc623856f7860d673a8a4f220f7fc)
+mail: unrecognized option '-S'
+[2026-03-14 21:17:05] Failed to send alert for: /etc/myapp/config/app.yaml
+[2026-03-15 04:37:03] Directory not found: /etc/myapp/config
+[2026-03-15 04:37:03] Directory not found: /opt/application/data
+[2026-03-15 04:37:03] Directory not found: /etc/nginx
+[2026-03-15 04:37:03] Directory not found: /var/log/myapp/
+[2026-03-15 04:37:03] No files found to monitor
+[2026-03-14 23:12:19] File modified: /etc/myapp/config/app.yaml (old: 9cfab71add1f36a7e6b76b10a9c2a46ef8911dcbdea5ab75eeb0e717221e4e30, new: a9a72234949c8c27e908e41cc47c87bdfa49f61c97ff16c12a779935b9a41253)
+sendmail: Cannot open mail:25
+[2026-03-14 23:13:21] File modified: /etc/myapp/config/app.yaml (old: 9cfab71add1f36a7e6b76b10a9c2a46ef8911dcbdea5ab75eeb0e717221e4e30, new: 19a99dc5c59886b0f3597232afc5fd3c96d2a61bb763ae1bae0b5f29aef3e9be)
+[2026-03-23 09:38:42] File modified: /etc/myapp/config/app.yaml (old: 19a99dc5c59886b0f3597232afc5fd3c96d2a61bb763ae1bae0b5f29aef3e9be, new: 9cfab71add1f36a7e6b76b10a9c2a46ef8911dcbdea5ab75eeb0e717221e4e30)
