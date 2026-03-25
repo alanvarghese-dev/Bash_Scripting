@@ -1,0 +1,17 @@
+[Unit]
+Description=Run System Update Manager Daily
+Documentation=https://github.com/your-org/update-manager
+Requires=update-manager.service
+
+[Timer]
+# Run daily at 3 AM
+OnCalendar=*-*-* 03:00:00
+
+# Run if missed during downtime
+Persistent=true
+
+# Randomize start time by up to 1 hour to avoid thundering herd
+RandomizedDelaySec=3600
+
+[Install]
+WantedBy=timers.target

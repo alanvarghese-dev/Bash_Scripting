@@ -1,0 +1,40 @@
+# =============================================================================
+# System Update Manager - Cron Configuration
+# =============================================================================
+# Purpose: Automated scheduled updates via cron
+# Installation: Copy this file to /etc/cron.d/update-manager
+# =============================================================================
+
+# Run system updates daily at 3:00 AM
+# Only runs if system is up and connected to network
+# Logs to /var/log/update_manager.log
+
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Check for updates every day at 6:00 AM
+# Does not require root (check-only mode)
+0 6 * * * nobody /usr/local/bin/update_manager.sh --check >> /var/log/update_manager.log 2>&1
+
+# Install updates daily at 3:00 AM
+# Runs as root
+0 3 * * * root /usr/local/bin/update_manager.sh --cron >> /var/log/update_manager.log 2>&1
+
+# Alternative schedules (comment out above and uncomment as needed)
+
+# Weekly updates (Sunday at 3:00 AM)
+# 0 3 * * 0 root /usr/local/bin/update_manager.sh --cron >> /var/log/update_manager.log 2>&1
+
+# Bi-weekly updates (1st and 15th of month at 3:00 AM)
+# 0 3 1,15 * * root /usr/local/bin/update_manager.sh --cron >> /var/log/update_manager.log 2>&1
+
+# Hourly update checks (for monitoring)
+# 0 * * * * nobody /usr/local/bin/update_manager.sh --check >> /var/log/update_manager.log 2>&1
+
+# =============================================================================
+# Notes:
+# - 'nobody' is used for --check mode (no root required)
+# - 'root' is required for --install and --cron modes
+# - Adjust PATH to ensure all required commands are available
+# - Log file must be writable by the executing user
+# =============================================================================

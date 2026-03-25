@@ -1,0 +1,37 @@
+[Unit]
+Description=System Update Manager
+Documentation=https://github.com/your-org/update-manager
+After=network.target apt-daily.service apt-daily-upgrade.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/update_manager.sh --install
+WorkingDirectory=/var/lib/update_manager
+
+# Environment settings
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="LANG=C.UTF-8"
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/update_manager /var/log/update_manager /var/lock
+ReadOnlyPaths=/etc/update_manager
+
+# Resource limits
+TimeoutStartSec=600
+TimeoutStopSec=60
+
+# Standard output and error
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=update-manager
+
+# Restart on failure
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,33 @@
+# =============================================================================
+# System Update Manager - Docker Compose Configuration
+# =============================================================================
+# Purpose: Provide isolated Ubuntu environment for testing
+# Usage: docker-compose up -d
+# =============================================================================
+
+version: '3.8'
+
+services:
+  um:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: um
+    hostname: um
+    privileged: true
+    volumes:
+      - ./update_manager.sh:/usr/local/bin/update_manager.sh:ro
+      - ./config.ini:/etc/update_manager/config.ini:ro
+      - um-data:/var/lib/update_manager
+      - um-logs:/var/log/update_manager
+    environment:
+      - DEBUG=true
+      - TZ=UTC
+    stdin_open: true
+    tty: true
+
+volumes:
+  um-data:
+    driver: local
+  um-logs:
+    driver: local
