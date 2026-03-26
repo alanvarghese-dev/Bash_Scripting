@@ -13,6 +13,7 @@
 
 - [Features](#-features)
 - [Architecture](#-architecture)
+- [Project Structure](#-project-structure)
 - [Installation](#-installation)
 - [Configuration](#-configuration)
 - [Usage](#-usage)
@@ -47,6 +48,28 @@ The System Update Manager is designed for reliability and simplicity:
 - **Storage**: Uses SQLite3 for lightweight, ACID-compliant history tracking.
 - **Safety**: Generates standalone `.sh` rollback scripts for easy recovery.
 - **Integration**: Leverages standard system tools (`apt-get`, `dpkg`, `logger`).
+
+---
+
+## 📁 Project Structure
+
+```text
+.
+├── config.ini              # Main configuration file
+├── docker-compose.yml      # Docker compose for development/testing
+├── Dockerfile              # Docker image definition
+├── README.md               # Project documentation
+├── update_manager.sh       # Core automation script
+├── cron/                   # Cron job configuration
+│   └── update-manager.cron
+├── screenshots/            # Project screenshots
+├── systemd/                # Systemd service and timer units
+│   ├── update-manager.service
+│   └── update-manager.timer
+└── tests/                  # Automated test suite
+    ├── test_cases.sh
+    └── test_runner.sh
+```
 
 ---
 
